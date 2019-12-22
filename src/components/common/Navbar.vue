@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- outline-primary, success, danger, info -->
-  <b-navbar toggleable="lg" type="dark" variant="info">
+  <b-navbar toggleable="lg" type="dark" variant="dark">
       <img class="logo" src="@/imgs/logoGaia.png" alt="some text">
     
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
