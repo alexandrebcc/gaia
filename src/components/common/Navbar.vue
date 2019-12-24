@@ -12,8 +12,7 @@
        <b-nav-item :to="{name:'Home'}" >Inicio</b-nav-item>
        <b-nav-item :to="{name:'Instituicoes'}" >Instituições</b-nav-item>
        <b-nav-item :to="{name:'Cadastrar'}">Cadastrar</b-nav-item>
-        <b-nav-item :to="{name:'FazerDoacao'}">Fazer Doação</b-nav-item>
-       <b-nav-item :to="{name:'Parceiros'}" >Parceiros</b-nav-item>
+       <b-nav-item :to="{name:'FazerDoacao'}">Fazer Doação</b-nav-item>
        <b-nav-item v-if="this.logado" :to="{name:'Login'}" >Login</b-nav-item>
        <b-nav-item v-else :to="{name:'Login'}" >Logout</b-nav-item>
       </b-navbar-nav>

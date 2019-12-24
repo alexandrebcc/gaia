@@ -9,15 +9,8 @@
           <div class="HtmlMarkup_html__3sUPP">
             <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta http-equiv="X-UA-Compatible" content="ie=edge">-->
-            <link
-              href="https://css.rede.natura.net/html/novosite20180716/natura-style/assets/css/natura-style-core.css"
-              rel="stylesheet"
-            />
-            <link
-              href="https://css.rede.natura.net/html/novosite20180716/natura-style/assets/css/natura-style-custom.css"
-              rel="stylesheet"
-              type="text/css"
-            />
+            <link href="#" rel="stylesheet" />
+            <link href="#" rel="stylesheet" type="text/css" />
             <div id="page-custom">
               <div class="container max-center">
                 <div class="row">
@@ -41,12 +34,12 @@
                     <div class="container-lines">
                       <div
                         class="img-line"
-                        style="background-image: url('https://static.rede.natura.net/html/2019/nossas_marcas/td.jpg')"
-                      >&nbsp;</div>
+                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
+                      ></div>
 
                       <h2>
-                        <a class="title-lines" href="/tododia">
-                          <span class="lines">TodoDia</span>
+                        <a class="title-lines" href="/instituicao1">
+                          <span class="lines">Instituicao 1</span>
                         </a>
                       </h2>
                     </div>
@@ -56,12 +49,12 @@
                     <div class="container-lines">
                       <div
                         class="img-line"
-                        style="background-image: url('https://static.rede.natura.net/html/novosite20180716/natura-style/img/marcas/marca-kaiak.jpg')"
+                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
                       >&nbsp;</div>
 
                       <h2>
-                        <a class="title-lines" href="/kaiak">
-                          <span class="lines">Kaiak</span>
+                        <a class="title-lines" href="/instituicao1">
+                          <span class="lines">Instituicao 2</span>
                         </a>
                       </h2>
                     </div>
@@ -71,12 +64,12 @@
                     <div class="container-lines">
                       <div
                         class="img-line"
-                        style="background-image: url('https://static.rede.natura.net/html/2019/nossas_marcas/essencial.jpg')"
+                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
                       >&nbsp;</div>
 
                       <h2>
-                        <a class="title-lines" href="/essencial">
-                          <span class="lines">Essencial</span>
+                        <a class="title-lines" href="/instituicao1">
+                          <span class="lines">Instituicao 3</span>
                         </a>
                       </h2>
                     </div>
@@ -86,12 +79,12 @@
                     <div class="container-lines">
                       <div
                         class="img-line"
-                        style="background-image: url('https://static.rede.natura.net/html/2019/nossas_marcas/ekos.jpg')"
+                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
                       >&nbsp;</div>
 
                       <h2>
-                        <a class="title-lines" href="/ekos">
-                          <span class="lines">Ekos</span>
+                        <a class="title-lines" href="/instituicao1">
+                          <span class="lines">Instituicao 4</span>
                         </a>
                       </h2>
                     </div>
@@ -103,12 +96,12 @@
                     <div class="container-lines">
                       <div
                         class="img-line"
-                        style="background-image: url('https://static.rede.natura.net/html/2019/nossas_marcas/una.jpg')"
+                        style="background-image:  url('https://api.adorable.io/avatars/285/abott@adorable.png')"
                       >&nbsp;</div>
 
                       <h2>
-                        <a class="title-lines" href="/una">
-                          <span class="lines">UNA</span>
+                        <a class="title-lines" href="/instituicao1">
+                          <span class="lines">Instituicao 5</span>
                         </a>
                       </h2>
                     </div>
@@ -118,12 +111,12 @@
                     <div class="container-lines">
                       <div
                         class="img-line"
-                        style="background-image: url('https://static.rede.natura.net/html/novosite20180716/natura-style/img/marcas/marca-mmbb.jpg')"
+                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
                       >&nbsp;</div>
 
                       <h2>
-                        <a class="title-lines" href="/mamae-e-bebe">
-                          <span class="lines">Mamãe e Bebê</span>
+                        <a class="title-lines" href="/instituicao1">
+                          <span class="lines"> Instituicao 6</span>
                         </a>
                       </h2>
                     </div>
@@ -133,12 +126,12 @@
                     <div class="container-lines">
                       <div
                         class="img-line"
-                        style="background-image: url('https://static.rede.natura.net/html/novosite20180716/natura-style/img/marcas/marca-chronos.jpg')"
+                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
                       >&nbsp;</div>
 
                       <h2>
-                        <a class="title-lines" href="/chronos">
-                          <span class="lines">Chronos</span>
+                        <a class="title-lines" href="/instituicao1">
+                          <span class="lines">Instituicao 7</span>
                         </a>
                       </h2>
                     </div>
@@ -148,12 +141,12 @@
                     <div class="container-lines">
                       <div
                         class="img-line"
-                        style="background-image: url('https://static.rede.natura.net/html/2019/nossas_marcas/homem.jpg')"
+                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
                       >&nbsp;</div>
 
                       <h2>
-                        <a class="title-lines" href="/homem">
-                          <span class="lines">Homem</span>
+                        <a class="title-lines" href="/instituicao1">
+                          <span class="lines">Instituicao 8</span>
                         </a>
                       </h2>
                     </div>
@@ -165,12 +158,12 @@
                     <div class="container-lines">
                       <div
                         class="img-line"
-                        style="background-image: url('https://static.rede.natura.net/html/2019/nossas_marcas/plant.jpg')"
+                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
                       >&nbsp;</div>
 
                       <h2>
-                        <a class="title-lines" href="/plant">
-                          <span class="lines">Plant</span>
+                        <a class="title-lines" href="/instituicao1">
+                          <span class="lines">Instituicao 9</span>
                         </a>
                       </h2>
                     </div>
@@ -180,12 +173,12 @@
                     <div class="container-lines">
                       <div
                         class="img-line"
-                        style="background-image: url('https://static.rede.natura.net/html/novosite20180716/natura-style/img/marcas/marca-seve.jpg')"
+                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
                       >&nbsp;</div>
 
                       <h2>
-                        <a class="title-lines" href="/seve">
-                          <span class="lines">Sève</span>
+                        <a class="title-lines" href="/instituicao1">
+                          <span class="lines">Instituicao 10</span>
                         </a>
                       </h2>
                     </div>
@@ -195,14 +188,14 @@
                     <div class="container-lines">
                       <div
                         class="img-line"
-                        style="background-image: url('https://static.rede.natura.net/html/2019/nossas_marcas/aquarela.jpg')"
+                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
                       >&nbsp;</div>
-
                       <h2>
-                        <a class="title-lines" href="/aquarela">
-                          <span class="lines">Aquarela</span>
+                        <a class="title-lines" href="/instituicao1">
+                          <span class="lines">Instituicao 11</span>
                         </a>
                       </h2>
+
                     </div>
                   </div>
 
@@ -210,12 +203,12 @@
                     <div class="container-lines">
                       <div
                         class="img-line"
-                        style="background-image: url('https://static.rede.natura.net/html/novosite20180716/natura-style/img/marcas/marca-humor.jpg')"
+                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
                       >&nbsp;</div>
 
                       <h2>
-                        <a class="title-lines" href="/humor">
-                          <span class="lines">Humor</span>
+                        <a class="title-lines" href="/instituicao1">
+                          <span class="lines">Instituicao 12</span>
                         </a>
                       </h2>
                     </div>
@@ -227,12 +220,12 @@
                     <div class="container-lines">
                       <div
                         class="img-line"
-                        style="background-image: url('https://static.rede.natura.net/html/novosite20180716/natura-style/img/marcas/marca-biografia.jpg')"
+                        style="background-image:url('https://api.adorable.io/avatars/285/abott@adorable.png')"
                       >&nbsp;</div>
 
                       <h2>
-                        <a class="title-lines" href="/biografia">
-                          <span class="lines">Biografia</span>
+                        <a class="title-lines" href="/instituicao1">
+                          <span class="lines">Instituicao 13</span>
                         </a>
                       </h2>
                     </div>
@@ -242,12 +235,12 @@
                     <div class="container-lines">
                       <div
                         class="img-line"
-                        style="background-image: url('https://static.rede.natura.net/html/novosite20180716/natura-style/img/marcas/marca-nature.jpg')"
+                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
                       >&nbsp;</div>
 
                       <h2>
-                        <a class="title-lines" href="/nature">
-                          <span class="lines">Naturé</span>
+                        <a class="title-lines" href="/instituicao1">
+                          <span class="lines">Instituicao 14</span>
                         </a>
                       </h2>
                     </div>
@@ -257,12 +250,12 @@
                     <div class="container-lines">
                       <div
                         class="img-line"
-                        style="background-image: url('https://static.rede.natura.net/html/novosite20180716/natura-style/img/marcas/marca-sou.jpg')"
+                        style="background-image:url('https://api.adorable.io/avatars/285/abott@adorable.png')"
                       >&nbsp;</div>
 
                       <h2>
-                        <a class="title-lines" href="/sou">
-                          <span class="lines">Sou</span>
+                        <a class="title-lines" href="/instituicao1">
+                          <span class="lines">Instituicao 15</span>
                         </a>
                       </h2>
                     </div>
@@ -272,12 +265,12 @@
                     <div class="container-lines">
                       <div
                         class="img-line"
-                        style="background-image: url('https://static.rede.natura.net/html/novosite20180716/natura-style/img/marcas/marca-foto-equilibrio.jpg')"
+                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
                       >&nbsp;</div>
 
                       <h2>
-                        <a class="title-lines" href="/fotoequilibrio">
-                          <span class="lines">Fotoequilíbrio</span>
+                        <a class="title-lines" href="/instituicao1">
+                          <span class="lines">Instituicao 16</span>
                         </a>
                       </h2>
                     </div>
@@ -289,12 +282,12 @@
                     <div class="container-lines">
                       <div
                         class="img-line"
-                        style="background-image: url('https://static.rede.natura.net/html/2019/nossas_marcas/faces.jpg')"
+                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
                       >&nbsp;</div>
 
                       <h2>
-                        <a class="title-lines" href="/faces">
-                          <span class="lines">Faces</span>
+                        <a class="title-lines" href="/instituicao1">
+                          <span class="lines">Instituicao 17</span>
                         </a>
                       </h2>
                     </div>
@@ -304,12 +297,12 @@
                     <div class="container-lines">
                       <div
                         class="img-line"
-                        style="background-image: url('https://static.rede.natura.net/html/2019/nossas_marcas/srn.jpg')"
+                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
                       >&nbsp;</div>
 
                       <h2>
-                        <a class="title-lines" href="/sr-n">
-                          <span class="lines">SR N</span>
+                        <a class="title-lines" href="/instituicao1">
+                          <span class="lines">Instituicao 18</span>
                         </a>
                       </h2>
                     </div>
@@ -319,12 +312,12 @@
                     <div class="container-lines">
                       <div
                         class="img-line"
-                        style="background-image: url('https://static.rede.natura.net/html/novosite20180716/natura-style/img/marcas/marca-luna.jpg ')"
+                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
                       >&nbsp;</div>
 
                       <h2>
-                        <a class="title-lines" href="/luna">
-                          <span class="lines">Luna</span>
+                        <a class="title-lines" href="/instituicao1">
+                          <span class="lines">Instituicao 19</span>
                         </a>
                       </h2>
                     </div>
@@ -334,12 +327,12 @@
                     <div class="container-lines">
                       <div
                         class="img-line"
-                        style="background-image: url('https://static.rede.natura.net/html/2019/nossas_marcas/aguas.jpg')"
+                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
                       >&nbsp;</div>
 
                       <h2>
-                        <a class="title-lines" href="/aguas">
-                          <span class="lines">Águas</span>
+                        <a class="title-lines" href="/instituicao1">
+                          <span class="lines">Instituicao 20</span>
                         </a>
                       </h2>
                     </div>
@@ -351,12 +344,12 @@
                     <div class="container-lines">
                       <div
                         class="img-line"
-                        style="background-image: url('https://static.rede.natura.net/html/2019/nossas_marcas/erva-doce.jpg')"
+                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
                       >&nbsp;</div>
 
                       <h2>
-                        <a class="title-lines" href="/erva-doce">
-                          <span class="lines">Erva Doce</span>
+                        <a class="title-lines" href="/instituicao1">
+                          <span class="lines">Instituicao 21</span>
                         </a>
                       </h2>
                     </div>
@@ -366,12 +359,12 @@
                     <div class="container-lines">
                       <div
                         class="img-line"
-                        style="background-image: url('https://static.rede.natura.net/html/2019/nossas_marcas/kriska.jpg')"
+                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
                       >&nbsp;</div>
 
                       <h2>
-                        <a class="title-lines" href="/kriska">
-                          <span class="lines">Kriska</span>
+                        <a class="title-lines" href="/instituicao1">
+                          <span class="lines">Instituicao 22</span>
                         </a>
                       </h2>
                     </div>
@@ -381,12 +374,12 @@
                     <div class="container-lines">
                       <div
                         class="img-line"
-                        style="background-image: url('https://static.rede.natura.net/html/novosite20180716/natura-style/img/marcas/marca-ilia.jpg')"
+                        style="background-image:url('https://api.adorable.io/avatars/285/abott@adorable.png')"
                       >&nbsp;</div>
 
                       <h2>
-                        <a class="title-lines" href="/ilia">
-                          <span class="lines">Ilía</span>
+                        <a class="title-lines" href="/instituicao1">
+                          <span class="lines">Instituicao 23</span>
                         </a>
                       </h2>
                     </div>
@@ -396,12 +389,12 @@
                     <div class="container-lines">
                       <div
                         class="img-line"
-                        style="background-image: url('https://static.rede.natura.net/html/2019/nossas_marcas/urbano.jpg')"
+                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
                       >&nbsp;</div>
 
                       <h2>
-                        <a class="title-lines" href="/urbano">
-                          <span class="lines">#Urbano</span>
+                        <a class="title-lines" href="/instituicao1">
+                          <span class="lines">Instituicao 24</span>
                         </a>
                       </h2>
                     </div>
@@ -413,12 +406,12 @@
                     <div class="container-lines">
                       <div
                         class="img-line"
-                        style="background-image: url('https://static.rede.natura.net/html/2019/nossas_marcas/cpv.jpg')"
+                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
                       >&nbsp;</div>
 
                       <h2>
-                        <a class="title-lines" href="/crer-para-ver">
-                          <span class="lines">Crer para Ver</span>
+                        <a class="title-lines" href="/instituicao1">
+                          <span class="lines">Instituicao 25</span>
                         </a>
                       </h2>
                     </div>
@@ -428,12 +421,12 @@
                     <div class="container-lines">
                       <div
                         class="img-line"
-                        style="background-image: url('https://static.rede.natura.net/html/novosite20180716/natura-style/img/marcas/lumina.jpg ')"
+                        style="background-image:url('https://api.adorable.io/avatars/285/abott@adorable.png')"
                       >&nbsp;</div>
 
                       <h2>
-                        <a class="title-lines" href="/lumina">
-                          <span class="lines">Lumina</span>
+                        <a class="title-lines" href="/instituicao1">
+                          <span class="lines">26</span>
                         </a>
                       </h2>
                     </div>
@@ -443,12 +436,27 @@
                     <div class="container-lines">
                       <div
                         class="img-line"
-                        style="background-image: url('https://static.rede.natura.net/html/2019/nossas_marcas/sintonia.jpg')"
+                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
                       >&nbsp;</div>
 
                       <h2>
-                        <a class="title-lines" href="/sintonia">
-                          <span class="lines">Sintonia</span>
+                        <a class="title-lines" href="/instituicao1">
+                          <span class="lines">Instituicao 27</span>
+                        </a>
+                      </h2>
+                    </div>
+                  </div>
+                  
+                  <div class="col-md-3 col-sm-6 text-center">
+                    <div class="container-lines">
+                      <div
+                        class="img-line"
+                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
+                      >&nbsp;</div>
+
+                      <h2>
+                        <a class="title-lines" href="/instituicao1">
+                          <span class="lines">Instituicao 28</span>
                         </a>
                       </h2>
                     </div>
@@ -475,44 +483,131 @@ export default {
 </script>
 
 <style scopded>
-  #page-custom h2 {
-    font-weight: 300;
-  }
-  #page-custom .container-lines,
-  #page-custom .img-line {
-    position: relative;
-    height: 27.5rem;
-    margin-bottom: 30px;
-  }
-  #page-custom .container-lines:hover {
-    top: -1px;
-    transition: all 3s ease;
-  }
+#page-custom h2 {
+  font-weight: 300;
+}
+#page-custom .container-lines,
+#page-custom .img-line {
+  position: relative;
+  height: 27.5rem;
+  margin-bottom: 30px;
+}
+#page-custom .container-lines:hover {
+  top: -1px;
+  transition: all 3s ease;
+}
 
-  #page-custom .img-line {
-    background-position-x: center;
-    background-repeat: no-repeat;
-  }
-  #page-custom .title-lines {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    background-color: rgba(0, 0, 0, 0.4);
-    color: #fff;
-    font-size: 1.375rem;
-    text-transform: uppercase;
-    font-weight: 600;
-  }
-  #page-custom .title-lines:hover {
-    color: #fff;
-  }
-  #page-custom .lines {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+#page-custom .img-line {
+  background-position-x: center;
+  background-repeat: no-repeat;
+}
+#page-custom .title-lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  font-size: 1.375rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+#page-custom .title-lines:hover {
+  color: #fff;
+}
+#page-custom .lines {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#page-custom h1 {
+  font-size: 22px;
+  text-transform: uppercase;
+}
+#page-custom h2 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+#page-custom p {
+  padding-bottom: 30px;
+}
+
+#page-custom .title-line {
+  margin: 0;
+}
+#page-custom .title-line:after {
+  background-color: #f93;
+  content: "";
+  display: block;
+  height: 0.125rem;
+  margin: 10px 0 30px;
+  width: 3.75rem;
+}
+
+#page-custom .title-line-center {
+  margin: 0;
+  text-align: center;
+  margin: 60px 0 50px;
+}
+#page-custom .title-line-center:after {
+  background-color: #f93;
+  content: "";
+  display: block;
+  height: 0.125rem;
+  margin: 10px auto 30px;
+  width: 3.75rem;
+}
+
+/* Lists */
+#page-custom ul {
+  max-width: none;
+  padding: 0 0 30px 0;
+}
+
+/* Lists */
+
+/* Contents */
+#page-custom .max-center {
+  /*max-width: 840px;*/
+  max-width: 48.75rem;
+}
+
+.btn-xyjz {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #f93;
+  border: none;
+  color: #fff !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Lato", sans-serif;
+  font-size: 0.875rem;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  line-height: 1.25rem;
+  max-width: 15rem;
+  padding: 0.625rem 1.25rem;
+  text-transform: uppercase;
+  -webkit-transition: all 305ms ease;
+  transition: all 305ms ease;
+  white-space: nowrap;
+}
+.btn-xyjz:not(:disabled):hover {
+  background-color: #ff7c34;
+  color: #fff;
+  text-decoration: none;
+}
+
+.center-xyjz {
+  /* margin: 1.25rem auto 0; */
+  margin: 3.25rem auto;
+}
 </style>

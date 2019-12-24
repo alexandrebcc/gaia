@@ -1,8 +1,7 @@
 <template>
-<Principal>
-  <div class="home">  
-    <img class="img-fluid banner" src="../imgs/fo3.jpg" />
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id temporibus, excepturi corporis omnis reiciendis nesciunt repudiandae ea beatae? Ut, obcaecati iusto nisi recusandae quod autem harum itaque quibusdam quam alias.</p>
+<Principal id=home>
+  <div  class="texto">  
+      Bem vindo ao Gaia
   </div>
 </Principal>
 </template>
@@ -18,18 +17,22 @@ export default {
 }
 </script>
 
-<style>
-.banner {
-  width: 100%;
-  max-height: 600px; 
-}
-/* .home {
+<style scoped>
+
+ #home {
     background-image: url(../imgs/fo3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
     font-family: 'Numans', sans-serif;
-} */
+} 
+
+.texto{
+  margin-top: 50px;
+  margin-left: 700px;
+  color: white;
+  font-size: 100px
+}
 
 
   

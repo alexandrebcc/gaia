@@ -3,7 +3,6 @@ import Home from '../views/home';
 import Login from "../views/login";
 import Cadastrar from "../views/cadastrar";
 import FazerDoacao from "../views/fazerdoacao";
-import Parceiros from "../views/parceiros";
 import Instituicoes from "../views/instituicoes";
 
 
@@ -29,11 +28,6 @@ export default new Router({
       path: "/fazerdoacao",
       name: "FazerDoacao",
       component: FazerDoacao
-    },
-    {
-      path: "/parceiros",
-      name: "Parceiros",
-      component: Parceiros
     },
     {
       path: "/instituicoes",

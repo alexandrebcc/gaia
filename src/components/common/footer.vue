@@ -64,6 +64,4 @@ div {
     margin-left: auto;
     padding: 0 20px;
 } 
-
-
 </style>
