@@ -28,17 +28,15 @@
                 </div>
               </div>
 
+           
               <div class="container">
                 <div class="row">
                   <div class="col-md-3 col-sm-6 text-center container-lines">
                     <div class="container-lines">
-                      <div
-                        class="img-line"
-                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
-                      ></div>
+                      <div class="img-line"></div>
 
                       <h2>
-                        <a class="title-lines" href="/instituicao1">
+                        <a class="title-lines" v-bind:style="{ 'background-image': 'url(' + logo + ')' }">
                           <span class="lines">Instituicao 1</span>
                         </a>
                       </h2>
@@ -47,13 +45,12 @@
 
                   <div class="col-md-3 col-sm-6 text-center">
                     <div class="container-lines">
-                      <div
+                      <img
                         class="img-line"
-                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
-                      >&nbsp;</div>
+                        :src="logo">
 
                       <h2>
-                        <a class="title-lines" href="/instituicao1">
+                        <a class="title-lines"  v-bind:style="{ 'background-image': 'url(' + logo + ')' }">
                           <span class="lines">Instituicao 2</span>
                         </a>
                       </h2>
@@ -91,393 +88,77 @@
                   </div>
                 </div>
 
-                <div class="row">
-                  <div class="col-md-3 col-sm-6 text-center">
-                    <div class="container-lines">
-                      <div
-                        class="img-line"
-                        style="background-image:  url('https://api.adorable.io/avatars/285/abott@adorable.png')"
-                      >&nbsp;</div>
-
-                      <h2>
-                        <a class="title-lines" href="/instituicao1">
-                          <span class="lines">Instituicao 5</span>
-                        </a>
-                      </h2>
-                    </div>
-                  </div>
-
-                  <div class="col-md-3 col-sm-6 text-center container-lines">
-                    <div class="container-lines">
-                      <div
-                        class="img-line"
-                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
-                      >&nbsp;</div>
-
-                      <h2>
-                        <a class="title-lines" href="/instituicao1">
-                          <span class="lines"> Instituicao 6</span>
-                        </a>
-                      </h2>
-                    </div>
-                  </div>
-
-                  <div class="col-md-3 col-sm-6 text-center">
-                    <div class="container-lines">
-                      <div
-                        class="img-line"
-                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
-                      >&nbsp;</div>
-
-                      <h2>
-                        <a class="title-lines" href="/instituicao1">
-                          <span class="lines">Instituicao 7</span>
-                        </a>
-                      </h2>
-                    </div>
-                  </div>
-
-                  <div class="col-md-3 col-sm-6 text-center container-lines">
-                    <div class="container-lines">
-                      <div
-                        class="img-line"
-                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
-                      >&nbsp;</div>
-
-                      <h2>
-                        <a class="title-lines" href="/instituicao1">
-                          <span class="lines">Instituicao 8</span>
-                        </a>
-                      </h2>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <div class="col-md-3 col-sm-6 text-center">
-                    <div class="container-lines">
-                      <div
-                        class="img-line"
-                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
-                      >&nbsp;</div>
-
-                      <h2>
-                        <a class="title-lines" href="/instituicao1">
-                          <span class="lines">Instituicao 9</span>
-                        </a>
-                      </h2>
-                    </div>
-                  </div>
-
-                  <div class="col-md-3 col-sm-6 text-center container-lines">
-                    <div class="container-lines">
-                      <div
-                        class="img-line"
-                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
-                      >&nbsp;</div>
-
-                      <h2>
-                        <a class="title-lines" href="/instituicao1">
-                          <span class="lines">Instituicao 10</span>
-                        </a>
-                      </h2>
-                    </div>
-                  </div>
-
-                  <div class="col-md-3 col-sm-6 text-center">
-                    <div class="container-lines">
-                      <div
-                        class="img-line"
-                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
-                      >&nbsp;</div>
-                      <h2>
-                        <a class="title-lines" href="/instituicao1">
-                          <span class="lines">Instituicao 11</span>
-                        </a>
-                      </h2>
-
-                    </div>
-                  </div>
-
-                  <div class="col-md-3 col-sm-6 text-center">
-                    <div class="container-lines">
-                      <div
-                        class="img-line"
-                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
-                      >&nbsp;</div>
-
-                      <h2>
-                        <a class="title-lines" href="/instituicao1">
-                          <span class="lines">Instituicao 12</span>
-                        </a>
-                      </h2>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <div class="col-md-3 col-sm-6 text-center container-lines">
-                    <div class="container-lines">
-                      <div
-                        class="img-line"
-                        style="background-image:url('https://api.adorable.io/avatars/285/abott@adorable.png')"
-                      >&nbsp;</div>
-
-                      <h2>
-                        <a class="title-lines" href="/instituicao1">
-                          <span class="lines">Instituicao 13</span>
-                        </a>
-                      </h2>
-                    </div>
-                  </div>
-
-                  <div class="col-md-3 col-sm-6 text-center">
-                    <div class="container-lines">
-                      <div
-                        class="img-line"
-                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
-                      >&nbsp;</div>
-
-                      <h2>
-                        <a class="title-lines" href="/instituicao1">
-                          <span class="lines">Instituicao 14</span>
-                        </a>
-                      </h2>
-                    </div>
-                  </div>
-
-                  <div class="col-md-3 col-sm-6 text-center container-lines">
-                    <div class="container-lines">
-                      <div
-                        class="img-line"
-                        style="background-image:url('https://api.adorable.io/avatars/285/abott@adorable.png')"
-                      >&nbsp;</div>
-
-                      <h2>
-                        <a class="title-lines" href="/instituicao1">
-                          <span class="lines">Instituicao 15</span>
-                        </a>
-                      </h2>
-                    </div>
-                  </div>
-
-                  <div class="col-md-3 col-sm-6 text-center">
-                    <div class="container-lines">
-                      <div
-                        class="img-line"
-                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
-                      >&nbsp;</div>
-
-                      <h2>
-                        <a class="title-lines" href="/instituicao1">
-                          <span class="lines">Instituicao 16</span>
-                        </a>
-                      </h2>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <div class="col-md-3 col-sm-6 text-center container-lines">
-                    <div class="container-lines">
-                      <div
-                        class="img-line"
-                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
-                      >&nbsp;</div>
-
-                      <h2>
-                        <a class="title-lines" href="/instituicao1">
-                          <span class="lines">Instituicao 17</span>
-                        </a>
-                      </h2>
-                    </div>
-                  </div>
-
-                  <div class="col-md-3 col-sm-6 text-center">
-                    <div class="container-lines">
-                      <div
-                        class="img-line"
-                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
-                      >&nbsp;</div>
-
-                      <h2>
-                        <a class="title-lines" href="/instituicao1">
-                          <span class="lines">Instituicao 18</span>
-                        </a>
-                      </h2>
-                    </div>
-                  </div>
-
-                  <div class="col-md-3 col-sm-6 text-center container-lines">
-                    <div class="container-lines">
-                      <div
-                        class="img-line"
-                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
-                      >&nbsp;</div>
-
-                      <h2>
-                        <a class="title-lines" href="/instituicao1">
-                          <span class="lines">Instituicao 19</span>
-                        </a>
-                      </h2>
-                    </div>
-                  </div>
-
-                  <div class="col-md-3 col-sm-6 text-center">
-                    <div class="container-lines">
-                      <div
-                        class="img-line"
-                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
-                      >&nbsp;</div>
-
-                      <h2>
-                        <a class="title-lines" href="/instituicao1">
-                          <span class="lines">Instituicao 20</span>
-                        </a>
-                      </h2>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <div class="col-md-3 col-sm-6 text-center">
-                    <div class="container-lines">
-                      <div
-                        class="img-line"
-                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
-                      >&nbsp;</div>
-
-                      <h2>
-                        <a class="title-lines" href="/instituicao1">
-                          <span class="lines">Instituicao 21</span>
-                        </a>
-                      </h2>
-                    </div>
-                  </div>
-
-                  <div class="col-md-3 col-sm-6 text-center container-lines">
-                    <div class="container-lines">
-                      <div
-                        class="img-line"
-                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
-                      >&nbsp;</div>
-
-                      <h2>
-                        <a class="title-lines" href="/instituicao1">
-                          <span class="lines">Instituicao 22</span>
-                        </a>
-                      </h2>
-                    </div>
-                  </div>
-
-                  <div class="col-md-3 col-sm-6 text-center">
-                    <div class="container-lines">
-                      <div
-                        class="img-line"
-                        style="background-image:url('https://api.adorable.io/avatars/285/abott@adorable.png')"
-                      >&nbsp;</div>
-
-                      <h2>
-                        <a class="title-lines" href="/instituicao1">
-                          <span class="lines">Instituicao 23</span>
-                        </a>
-                      </h2>
-                    </div>
-                  </div>
-
-                  <div class="col-md-3 col-sm-6 text-center container-lines">
-                    <div class="container-lines">
-                      <div
-                        class="img-line"
-                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
-                      >&nbsp;</div>
-
-                      <h2>
-                        <a class="title-lines" href="/instituicao1">
-                          <span class="lines">Instituicao 24</span>
-                        </a>
-                      </h2>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <div class="col-md-3 col-sm-6 text-center">
-                    <div class="container-lines">
-                      <div
-                        class="img-line"
-                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
-                      >&nbsp;</div>
-
-                      <h2>
-                        <a class="title-lines" href="/instituicao1">
-                          <span class="lines">Instituicao 25</span>
-                        </a>
-                      </h2>
-                    </div>
-                  </div>
-
-                  <div class="col-md-3 col-sm-6 text-center container-lines">
-                    <div class="container-lines">
-                      <div
-                        class="img-line"
-                        style="background-image:url('https://api.adorable.io/avatars/285/abott@adorable.png')"
-                      >&nbsp;</div>
-
-                      <h2>
-                        <a class="title-lines" href="/instituicao1">
-                          <span class="lines">26</span>
-                        </a>
-                      </h2>
-                    </div>
-                  </div>
-
-                  <div class="col-md-3 col-sm-6 text-center">
-                    <div class="container-lines">
-                      <div
-                        class="img-line"
-                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
-                      >&nbsp;</div>
-
-                      <h2>
-                        <a class="title-lines" href="/instituicao1">
-                          <span class="lines">Instituicao 27</span>
-                        </a>
-                      </h2>
-                    </div>
-                  </div>
+                
                   
-                  <div class="col-md-3 col-sm-6 text-center">
-                    <div class="container-lines">
-                      <div
-                        class="img-line"
-                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
-                      >&nbsp;</div>
-
-                      <h2>
-                        <a class="title-lines" href="/instituicao1">
-                          <span class="lines">Instituicao 28</span>
-                        </a>
-                      </h2>
-                    </div>
-                  </div>
+                 
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+
   </Principal>
 </template>
 
 <script>
+/* eslint-disable */ 
 import Principal from "../layouts/principal";
 
 export default {
   name: "app",
   components: {
     Principal
+  },
+  data() {
+    return {
+      logo:require('../assets/logo.png'),
+      
+
+
+    }
+  },
+
+  methods: {
+    async obterInstituicoes(){
+     
+     this.institutions = await this.$services.institutions.getAll();
+      //response1.then(r => {
+      //  this.institutions = r.data;
+      //  console.log(this.institutions);
+      //})
+      console.log(this.institutions);
+    },
+    async postIstituicoes(){
+      let instituicao = {
+        name: "instituição 1",
+        endereco: "rua x",
+    }
+      let response = await this.$services.institutions.post(instituicao);
+      console.log(response);
+    },
+    async putInstituicoes(){
+      let refresh = {
+        name: "eu mesmo",
+        endereco: "o melhor",
+      }
+      let response = await this.$services.institutions.put(1,refresh)
+    },
+    async delInstituicoes(){
+     let response = await this.$services.institutions.delete(0)
+    }
+  },
+  created() {
+    
+  },
+  mounted() {
+    this.obterInstituicoes();
+    /*this.postIstituicoes();*/
+    /*this.putInstituicoes();
+    this.delInstituicoes();*/
+  },
+  updated() {
+
   }
 };
 </script>
@@ -500,6 +181,7 @@ export default {
 #page-custom .img-line {
   background-position-x: center;
   background-repeat: no-repeat;
+  
 }
 #page-custom .title-lines {
   position: absolute;

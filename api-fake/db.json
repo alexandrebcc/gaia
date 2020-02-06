@@ -1,0 +1,87 @@
+{
+  "Cadastrar": [
+    {
+      "nome": "patrik",
+      "idade": 20,
+      "email": "patrik@gmail.com",
+      "id": 1
+    },
+    {
+      "nome": "lula molusco",
+      "idade": 30,
+      "email": "lulamolusco@gmail.com",
+      "id": 2
+    },
+    {
+      "nome": "cerigueijo",
+      "idade": 39,
+      "email": "serigueijo@gmail.com",
+      "id": 3
+    },
+    {
+      "nome": "novo usuario",
+      "idade": 20,
+      "email": "novouser@gmail.com",
+      "id": 5
+    }
+  ],
+  "Login": [
+    {
+      "usuario": "lulamolusco",
+      "senha": 3030,
+      "id": 1
+    },
+    {
+      "usuario": "bobesponja",
+      "senha": 3029,
+      "id": 2
+    },
+    {
+      "usuario": "lulamolusco",
+      "senha": 3030,
+      "id": 5
+    },
+    {
+      "usuario": "lulamolusco",
+      "senha": 3030,
+      "id": 6
+    },
+    {
+      "usuario": "lulamolusco",
+      "senha": 3030,
+      "id": 7
+    },
+    {
+      "usuario": "lulamolusco",
+      "senha": 3030,
+      "id": 8
+    },
+    {
+      "usuario": "lulamolusco",
+      "senha": 3030,
+      "id": 9
+    },
+    {
+      "usuario": "lulamolusco",
+      "senha": 3030,
+      "id": 10
+    },
+    {
+      "usuario": "lulamolusco",
+      "senha": 3030,
+      "id": 11
+    }
+  ],
+  "doacao": [
+    {
+      "valor": "15 reais",
+      "telefone": "1515-1515",
+      "id": 1
+    },
+    {
+      "valor": "30 reais",
+      "telefone": "3030-3030",
+      "id": 2
+    }
+  ]
+}

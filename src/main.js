@@ -8,6 +8,11 @@ Vue.use(BootstrapVue);
 import router from "./router"
 import VueRouter from "vue-router";
 
+import * as services from "./services/";
+Vue.prototype.$services = services;
+
+Vue.config.productionTip = false
+
 
 Vue.use(VueRouter)
 

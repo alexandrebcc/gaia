@@ -48,6 +48,7 @@
 </template>
 
 <script>
+/* eslint-disable */ 
 import NavBar from "../layouts/principal";
 export default {
   name: 'app',
@@ -63,7 +64,46 @@ export default {
       login(){
           this.$router.push({name:'Home'})
 
+      },
+       async obterLogin(){
+     
+     this.login = await this.$services.login.getAll();
+      console.log(this.login);
+    },
+    async postLogin(){
+      let login = {
+        usuario: "lulamolusco",
+        senha:3030
+    }
+      let response = await this.$services.login.post(login);
+      console.log(response);
+    },
+    async putLogin(){
+      let refresh = {
+        usuario: "lulaMolusco",
+        senha:3030
       }
+      let response = await this.$services.login.put(4,refresh)
+    },
+    async delLogin(){
+     let dados = this.getAll()
+     let response = await this.$services.login.delete()
+    }
+  },
+   created() {
+    
+  },
+  mounted() {
+    this.obterLogin();
+    this.postLogin();
+    this.obterLogin();
+    this.putLogin();
+    this.obterLogin();
+    this.delLogin();
+    this.obterLogin();
+  },
+  updated() {
+
   }
 }
 </script>

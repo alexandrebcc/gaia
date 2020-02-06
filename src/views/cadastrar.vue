@@ -109,6 +109,7 @@
 </template>
 
 <script>
+/* eslint-disable */ 
 import Principal from "../layouts/principal"
 
 export default {
@@ -116,9 +117,56 @@ export default {
   components: { 
     Principal
   },
+  data(){
+    return{
+
+    }
+  },
+  methods: {
+    async obterCadastro(){
+      this.register = await this.$services.register.getAll();
+      console.log(this.register);
+    },    
+    async postRegistro(){
+      let registro = {
+        nome: "novo usuario",
+        idade: 20,
+        email:"novouser@gmail.com"
+      }
+      let response = await this.$services.register.post(registro);
+      console.log(response);
+    },
+    async putRegistro(){
+      let refresh = {
+        nome: "atualiza usuario",
+        idade: 20,
+        email:"atualiza@gmail.com"
+        
+      }
+      let response = await this.$services.register.put(4,refresh)
+    },
+    async delRegistro(){
+     let response = await this.$services.register.delete(4)
+    }
+    
+  },
+   created() {
+  },
+    mounted(){
+      /*this.obterCadastro();*/
+      this.postRegistro();
+      this.obterCadastro();
+      this.putRegistro();
+      this.obterCadastro();
+      this.delRegistro();
+      
+    },
+    updated() {
+
+  }
 
  
-}
+};
 
 </script>
 
