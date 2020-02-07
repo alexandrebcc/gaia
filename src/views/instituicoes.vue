@@ -30,67 +30,21 @@
 
            
               <div class="container">
+
                 <div class="row">
-                  <div class="col-md-3 col-sm-6 text-center container-lines">
+
+                  <div class="col-md-3 col-sm-6 text-center container-lines" v-for="institution in institutions" :key="institution.id">
                     <div class="container-lines">
                       <div class="img-line"></div>
 
                       <h2>
                         <a class="title-lines" v-bind:style="{ 'background-image': 'url(' + logo + ')' }">
-                          <span class="lines">Instituicao 1</span>
+                          <span class="lines">{{institution.nome}}</span>
                         </a>
                       </h2>
                     </div>
-                  </div>
-
-                  <div class="col-md-3 col-sm-6 text-center">
-                    <div class="container-lines">
-                      <img
-                        class="img-line"
-                        :src="logo">
-
-                      <h2>
-                        <a class="title-lines"  v-bind:style="{ 'background-image': 'url(' + logo + ')' }">
-                          <span class="lines">Instituicao 2</span>
-                        </a>
-                      </h2>
-                    </div>
-                  </div>
-
-                  <div class="col-md-3 col-sm-6 text-center container-lines">
-                    <div class="container-lines">
-                      <div
-                        class="img-line"
-                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
-                      >&nbsp;</div>
-
-                      <h2>
-                        <a class="title-lines" href="/instituicao1">
-                          <span class="lines">Instituicao 3</span>
-                        </a>
-                      </h2>
-                    </div>
-                  </div>
-
-                  <div class="col-md-3 col-sm-6 text-center container-lines">
-                    <div class="container-lines">
-                      <div
-                        class="img-line"
-                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
-                      >&nbsp;</div>
-
-                      <h2>
-                        <a class="title-lines" href="/instituicao1">
-                          <span class="lines">Instituicao 4</span>
-                        </a>
-                      </h2>
-                    </div>
-                  </div>
-                </div>
-
-                
-                  
-                 
+                  </div>                  
+                </div>  
                 </div>
               </div>
             </div>
@@ -113,6 +67,7 @@ export default {
   data() {
     return {
       logo:require('../assets/logo.png'),
+      institutions: []
       
 
 
@@ -122,11 +77,10 @@ export default {
   methods: {
     async obterInstituicoes(){
      
-     this.institutions = await this.$services.institutions.getAll();
-      //response1.then(r => {
-      //  this.institutions = r.data;
-      //  console.log(this.institutions);
-      //})
+     let response = await this.$services.institutions.getAll();
+     if(response){
+       this.institutions = response.data;
+     }
       console.log(this.institutions);
     },
     async postIstituicoes(){
@@ -150,6 +104,7 @@ export default {
   },
   created() {
     
+    this.obterInstituicoes();
   },
   mounted() {
     this.obterInstituicoes();

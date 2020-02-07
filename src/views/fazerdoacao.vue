@@ -40,7 +40,7 @@
                       >&nbsp;</div>
         
                       <h2>
-                        <a class="title-lines" href="/doar">
+                        <a class="title-lines" v-bind:style="{ 'background-image': 'url(' + doa1 + ')' }">
                           <span class="lines">Doar 5 R$</span>
                         </a>
                       </h2>
@@ -55,7 +55,7 @@
                       >&nbsp;</div>
 
                       <h2>
-                        <a class="title-lines" href="/doar">
+                        <a class="title-lines" v-bind:style="{ 'background-image': 'url(' + doa2 + ')' }">
                           <span class="lines">Doar 10 R$</span>
                         </a>
                       </h2>
@@ -70,7 +70,7 @@
                       >&nbsp;</div>
 
                       <h2>
-                        <a class="title-lines" href="/doar">
+                        <a class="title-lines" v-bind:style="{ 'background-image': 'url(' + doa3 + ')' }">
                           <span class="lines">Doar 20R$</span>
                         </a>
                       </h2>
@@ -85,7 +85,7 @@
                       >&nbsp;</div>
 
                       <h2>
-                        <a class="title-lines" href="/doar">
+                        <a class="title-lines" v-bind:style="{ 'background-image': 'url(' + doa4 + ')' }">
                           <span class="lines">Doar 50R$</span>
                         </a>
                       </h2>
@@ -102,12 +102,20 @@
 </template>
 
 <script>
+/* eslint-disable */ 
 import Principal from "../layouts/principal";
 
 export default {
   name: "app",
-  components: { Principal }
-};
+  components: { Principal },
+data() {
+  return {
+  doa1:require('../imgs/doar/doar20.svg'),
+  doa2:require('../imgs/doar/doar50.svg'),
+  doa3:require('../imgs/doar/doar100.svg'),
+  doa4:require('../imgs/doar/doar200.svg')
+  }
+}}
 </script>
 
 <style scoped>
