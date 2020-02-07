@@ -1,4 +1,4 @@
-<template>
+git <template>
   <Principal>
     <div>
       <div
@@ -35,11 +35,10 @@
                       
                       <div
                         class="img-line"
-                        style="background-image: url('./imgs/michelle.jpg')"
-                       
                       >&nbsp;</div>
         
                       <h2>
+
                         <a class="title-lines" v-bind:style="{ 'background-image': 'url(' + doa1 + ')' }">
                           <span class="lines">Doar 5 R$</span>
                         </a>
@@ -51,7 +50,7 @@
                     <div class="container-lines">
                       <div
                         class="img-line"
-                        style="background-image: url('//../imgs/michelle.jpg')"
+                        style="background-image: url('@/assets/imgs/michelle.jpg')"
                       >&nbsp;</div>
 
                       <h2>
@@ -66,7 +65,7 @@
                     <div class="container-lines">
                       <div
                         class="img-line"
-                        style="background-image: url('./../imgs/michelle.jpg')"
+                        style="background-image: url('@/assets/imgs/michelle.jpg')"
                       >&nbsp;</div>
 
                       <h2>

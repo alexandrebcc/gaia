@@ -1,14 +1,14 @@
 <template>
   <div>
     <!-- outline-primary, success, danger, info -->
-  <b-navbar toggleable="lg" type="dark" variant="dark">
-      <img class="logo" src="@/imgs/logoGaia.png" alt="some text">
+  <b-navbar toggleable="lg" type="light" variant="primary">
+      <img class="logo" src="@/assets/imgs/gaiaLogo.png" alt="some text">
     
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
-        
+      
        <b-nav-item :to="{name:'Home'}" >Inicio</b-nav-item>
        <b-nav-item :to="{name:'Instituicoes'}" >Instituições</b-nav-item>
        <b-nav-item :to="{name:'Cadastrar'}">Cadastrar</b-nav-item>

@@ -1,11 +1,11 @@
 <template>
-  <div class>
+  <div>
     <Navbar></Navbar>
     <router-view></router-view>
-    <article>
+    <article style="margin:0px !important">
       <slot/>
     </article>
-    <Footer />
+    <Footer/>
   </div>
 </template>
 
@@ -20,4 +20,7 @@ export default {
 </script>
 
 <style scoped>
+  .art {
+    max-height: 100px;
+  }
 </style>
