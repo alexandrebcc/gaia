@@ -35,13 +35,13 @@
                       
                       <div
                         class="img-line"
-                        style="background-image: url('./imgs/michelle.jpg')"
-                       
                       >&nbsp;</div>
         
                       <h2>
                         <a class="title-lines" href="/doar">
-                          <span class="lines">Doar 5 R$</span>
+                          <span class="lines">
+                            <img src="@/assets/imgs/doarOutroV.png" alt="doação" width="250"  height="420">
+                          </span>
                         </a>
                       </h2>
                     </div>
@@ -51,7 +51,7 @@
                     <div class="container-lines">
                       <div
                         class="img-line"
-                        style="background-image: url('//../imgs/michelle.jpg')"
+                        style="background-image: url('@/assets/imgs/michelle.jpg')"
                       >&nbsp;</div>
 
                       <h2>
@@ -66,7 +66,7 @@
                     <div class="container-lines">
                       <div
                         class="img-line"
-                        style="background-image: url('./../imgs/michelle.jpg')"
+                        style="background-image: url('@/assets/imgs/michelle.jpg')"
                       >&nbsp;</div>
 
                       <h2>

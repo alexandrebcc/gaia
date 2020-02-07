@@ -61,7 +61,7 @@
                     <div class="container-lines">
                       <div
                         class="img-line"
-                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
+                        style="background-image: url('../assets/imgs/TESTEFrango.svg')"
                       >&nbsp;</div>
 
                       <h2>
@@ -76,7 +76,7 @@
                     <div class="container-lines">
                       <div
                         class="img-line"
-                        style="background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png')"
+                        style="background-image: url('../assets/imgs/TesteQueijo.svg')"
                       >&nbsp;</div>
 
                       <h2>
