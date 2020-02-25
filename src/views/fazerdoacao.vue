@@ -14,35 +14,21 @@ git <template>
               <div class="container max-center">
                 <div class="row">
                   <div class="col-md-12">
-                    <h1 class="title-line-center">Faça sua Doação</h1>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <div class="col-md-12">
-                    <p
+                    <h1
                       class="text-center"
-                    >Clique para fazer uma doação</p>
+                    >Clique para fazer uma doação</h1>
                   </div>
                 </div>
               </div>
 
               <div class="container">
-                <div class="row">
-                  <div class="col-md-3 col-sm-6 text-center container-lines">
+                <div class="row ">
+                  <div class="col-md-3 col-sm-8 text-center container-lines">
                     <div class="container-lines">
-                      
-                      
-                      <div
-                        class="img-line"
-                      >&nbsp;</div>
-        
-                      <h2>
-
-                        <a class="title-lines" v-bind:style="{ 'background-image': 'url(' + doa1 + ')' }">
-                          <span class="lines">Doar 5 R$</span>
-                        </a>
-                      </h2>
+                      <div class="img-line">
+                        &nbsp;
+                      </div>
+                        <a class="title-lines" :style="{ 'background': 'url(' + doa1 + ') no-repeat' }"></a>
                     </div>
                   </div>
                   
@@ -54,8 +40,7 @@ git <template>
                       >&nbsp;</div>
 
                       <h2>
-                        <a class="title-lines" v-bind:style="{ 'background-image': 'url(' + doa2 + ')' }">
-                          <span class="lines">Doar 10 R$</span>
+                        <a class="title-lines" :style="{ 'background': 'url(' + doa2 + ') no-repeat'}">
                         </a>
                       </h2>
                     </div>
@@ -69,8 +54,7 @@ git <template>
                       >&nbsp;</div>
 
                       <h2>
-                        <a class="title-lines" v-bind:style="{ 'background-image': 'url(' + doa3 + ')' }">
-                          <span class="lines">Doar 20R$</span>
+                        <a class="title-lines" v-bind:style="{ 'background': 'url(' + doa3 + ') no-repeat' }">
                         </a>
                       </h2>
                     </div>
@@ -84,8 +68,7 @@ git <template>
                       >&nbsp;</div>
 
                       <h2>
-                        <a class="title-lines" v-bind:style="{ 'background-image': 'url(' + doa4 + ')' }">
-                          <span class="lines">Doar 50R$</span>
+                        <a class="title-lines" v-bind:style="{ 'background': 'url(' + doa4 + ') no-repeat' }">
                         </a>
                       </h2>
                     </div>

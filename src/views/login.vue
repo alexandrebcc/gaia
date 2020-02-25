@@ -6,7 +6,7 @@
         <div class="d-flex justify-content-center h-100">
             <div class="card">
                 <div class="card-header">
-                    <h3>Login</h3>
+                   <h3>Login</h3>                    
                 </div>
                 <div class="card-body">
                     <form>
@@ -111,11 +111,11 @@ export default {
 <style>
 
 .login-container {
-    background-color: black;
+    background-color: #ffffff;
     background-repeat: no-repeat;
-    height: 100%;
+    height: 50%;
     font-family: 'Numans', sans-serif;
-    height: 100%;
+    height: 50%;
     align-content: center;
 }
 
@@ -124,13 +124,13 @@ export default {
     margin-top: 100px;
     margin-bottom: 500px;
     width: 400px;
-    background-color: rgba(0, 0, 0, 0.5) !important;
+    background-color:#004035 !important;
 }
 
 .social_icon span {
     font-size: 60px;
     margin-left: 10px;
-    color: #FFC312;
+    color: #00BF9E;
 }
 
 .social_icon span:hover {
@@ -150,7 +150,7 @@ export default {
 
 .input-group-prepend span {
     width: 50px;
-    background-color: #FFC312;
+    background-color: #00BF9E;
     color: black;
     border: 0 !important;
 }
@@ -173,7 +173,7 @@ input:focus {
 
 .login_btn {
     color: black;
-    background-color: #FFC312;
+    background-color: #00BF9E;
     width: 100px;
 }
 

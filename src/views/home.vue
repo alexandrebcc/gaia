@@ -1,7 +1,7 @@
 <template>
   <Principal id=home>
   <div class="estilo" style="min-height:510px; margin-bottom:0px !important" id="ola"></div>
-   <!-- <img src="../assets/imgs/FundoGaia2.png"  alt="fundo" height="510px" width="1500px"> --> 
+   <img src="../assets/imgs/FundoGaia.png" class="imgBackground" alt="fundo"> 
   </Principal>
 </template>
 
@@ -18,11 +18,23 @@ export default {
 
 <style scoped>
 
+.imgBackground {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+}
+
 .estilo{
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../assets/imgs/FundoGaia2.png);
+  /* background-image: url(../assets/imgs/FundoGaia.png) ; */
 }
 
  #home {

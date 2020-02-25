@@ -1,28 +1,35 @@
 <template>
+
   <div>
-    <footer class="text-center py-1 bg-info">
+    <footer class="text-center py-1 bg-light">
       <div class="tb-container">
         <ul class="d-flex justify-content-center tb-social-links">
           <li>
-            <a rel="noopener" href="https://facebook.com/" class="text-light">
+            <a rel="noopener" href="https://facebook.com/" class="text-dark">
               <img src="@/assets/imgs/face.png" alt="face" width="30">
             </a>
           </li>
           <li>
-            <a rel="noopener" href="https://twitter.com/" class="text-light">
+            <a rel="noopener" href="https://twitter.com/" class="text-dark">
              <img src="@/assets/imgs/twitter.png" alt="twi" width="30">
             </a>
           </li>
           <li>
-            <a rel="noopener" href="https://instagram.com/" class="text-light">
+            <a rel="noopener" href="https://instagram.com/" class="text-dark">
             <img src="@/assets/imgs/instagram.png" alt="twi" width="30">
             </a>
           </li>
         </ul>
       </div>
     </footer>
+      
   </div>
+ 
+
+
 </template>
+
+
 
 <script>
 export default {
